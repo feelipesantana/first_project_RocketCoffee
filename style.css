@@ -82,6 +82,11 @@ header button{
     font-weight:bold;
    
 }
+header button:hover{
+    background-color:#8257E5;
+    transition: 0.5s background-color;
+}
+
 
 main{
     
@@ -90,17 +95,24 @@ main{
     justify-content:space-between;
     align-items: center;
 }
-main > p{
-    text-align:center;
-   
-    color:white;
+
+main p{
+    margin-top:50px;
+}
+h1{
+    text-align:center;   
     
+    color:#fff;
     font-family: Manrope, Arial, Helvetica, sans;
     font-size:80px;
-    font-weight: bold;
-    
-   
+    font-weight: bold;   
 }
+
+h1:nth-child(3){
+    color:black;
+    text-shadow: -1px -1px 0px #8257E5,-1px 1px 0px #8257E5,1px -1px 0px #8257E5, 1px 1px 0px #8257E5;
+}
+
 
 main img{
     width:918px;
