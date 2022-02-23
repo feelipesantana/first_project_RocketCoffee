@@ -67,6 +67,10 @@ header ul a{
     font-weight: 400;
     font-size:14px;
 }
+header ul a:hover{
+    color:#8257E5;
+    transition: 0.5s color;
+}
 
 header button{
     width:172px;  
