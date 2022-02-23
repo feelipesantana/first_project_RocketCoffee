@@ -1,0 +1,117 @@
+:root {
+    --backgrond: #000;
+    --text-color: #FFF;
+    --button: #8257E5;
+    --border: #29292E;
+    --border-menu-mobile: #A8A8B3;
+    --text-color-menu-mobile: #E1E1E6;
+  }
+  @font-face {
+    font-family: Manrope;
+    src: url(manrope/static/Manrope-Medium.ttf);
+    
+  }
+
+*{
+    margin:0;
+    
+    
+   
+}
+
+body{
+   /*   
+    background-image: url(assets/blur-2.png);
+    background-repeat: no-repeat;
+    background-position:top right;*/
+   
+    background: url("assets/blur-2.png") 100% 0 no-repeat, 
+        url("assets/blur-1.png") 
+        0 100% no-repeat;
+    height:920px;
+    background-color: black;
+}
+
+
+
+/*conteudo*/
+#base{
+    width:918px;    
+    margin:0 auto;
+}
+
+
+header{
+    margin-top:50px;
+    height:50px;
+   
+    display:flex;
+    justify-content: space-between;
+    align-items: center; 
+    
+  
+}  
+
+header ul{
+    display:flex;
+    width:431.35px;
+    justify-content: space-between;    
+    align-items: center;
+    
+}
+
+header ul a{
+    color:#FFF;
+    text-decoration: none;
+    font-family: Manrope, Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    font-size:14px;
+}
+
+header button{
+    width:172px;  
+    
+    border:1px solid #8257E5;
+    border-radius: 5px;
+    background-color: transparent;   
+    
+    padding: 10px 0;
+    font-family: Manrope, Arial, Helvetica, sans-serif;
+    color:#FFF;
+    font-size:11px;
+    font-weight:bold;
+   
+}
+
+main{
+    
+    display:flex;
+    flex-direction: column;
+    justify-content:space-between;
+    align-items: center;
+}
+main > p{
+    text-align:center;
+   
+    color:white;
+    
+    font-family: Manrope, Arial, Helvetica, sans;
+    font-size:80px;
+    font-weight: bold;
+    
+   
+}
+
+main img{
+    width:918px;
+    position:absolute;
+    top:510px;   
+}
+
+
+
+
+
+
+
+
